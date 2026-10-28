@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mireau Appel | Data Science & Performance Analyst</title>
+    <title>Mireau Appel | Data, E-sports & Education</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts for a clean, modern tech look -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Lexend Font for a lively, highly readable, and approachable look -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -16,8 +16,8 @@
         <ul class="nav-links">
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#media">Media & Extras</a></li>
         </ul>
         <div class="hamburger">
             <span class="bar"></span>
@@ -28,13 +28,20 @@
 
     <!-- Hero Section -->
     <header id="hero" class="section hero">
-        <div class="hero-content">
-            <h1>Mireau <span class="highlight">Appel</span></h1>
-            <h2>Data Science Student & Performance Analyst</h2>
-            <p>Decoding the meta. Empowering players through data.</p>
-            <div class="cta-buttons">
-                <a href="https://github.com/MireauAppel" target="_blank" class="btn btn-primary">GitHub</a>
-                <a href="https://www.linkedin.com/in/mireau-appel-baa26919b/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Hi, I'm Mireau <span class="highlight">Appel</span></h1>
+                <h2>Bridging Data, E-sports, and Education.</h2>
+                <p>I build data-driven tools, coach competitive teams, and help people navigate technology and languages.</p>
+                <div class="cta-buttons">
+                    <!-- Fixed links from your GitHub baseline -->
+                    <a href="https://github.com/MireauAppel" target="_blank" class="btn btn-primary">GitHub</a>
+                    <a href="https://www.linkedin.com/in/mireau-appel-baa26919b/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <!-- Dedicated space for your picture -->
+                <img src="profile-placeholder.jpg" alt="Mireau Appel" class="profile-pic">
             </div>
         </div>
     </header>
@@ -42,67 +49,79 @@
     <!-- About Section -->
     <section id="about" class="section about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am a 3rd year computer science student wanting to specialize in data. I am currently studying at Aix-Marseille University (L3 Informatique) and actively looking to build my professional network to secure an alternance and eventually my Master's in Data.</p>
-                    <p>I have a passion for teaching, data transmission, learning, helping, and educating. Combined with a deep passion for League of Legends, I focus on data storytelling and statistical analysis within competitive gaming ecosystems (League of Legends & TFT). I am a Master 500 LP support player in EUW and actively play on an amateur team. I have also already started coaching League players and teams alike.</p>
-                    <p>Additionally, I speak 3 languages fluently (English, Dutch, French), giving me a versatile edge in diverse, international environments like the global E-sports industry.</p>
-                </div>
+            <h2 class="section-title">Contextualize Me</h2>
+            <div class="about-card">
+                <p>I am a 3rd year computer science student wanting to specialize in data. I have a passion for researching things, looking at statistics, learning, and educating. I am currently looking for an intership of 2 months starting on the 17th of april. My goal is to do my masters in data while doing an alternance, so I am highly motivated to form ties in the corporate world and get valuable experience ASAP.</p>
+                <p>Because I speak 3 languages fluently (english, dutch, french), I am comfortable navigating international environments and offering linguistic tutoring. I also utilize my very solid tech skills and teaching skills to assist the elderly and those seeking digital literacy support.</p>
+                <p>Finally, I have a deep passion for League of Legends. I am a masters 500 lp support player in EUW while also actively playing on a team. I have already started coaching league players and teams, applying data storytelling to optimize their performance.</p>
             </div>
         </div>
     </section>
 
-    <!-- Data Portfolio Section -->
-    <section id="portfolio" class="section portfolio">
+    <!-- Projects Section (Grid style inspired by Zachary Jordan) -->
+    <section id="projects" class="section projects">
         <div class="container">
-            <h2 class="section-title">Data Portfolio</h2>
-            <p class="section-subtitle">Game data analysis, patch note breakdowns, and statistical deep dives.</p>
-            
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/watch?v=UTaOQGtRnN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            
-            <div class="tools-container">
-                <h3>My Stack & Tools</h3>
-                <div class="tools-grid">
-                    <span class="tool-tag">Python</span>
-                    <span class="tool-tag">SQL</span>
-                    <span class="tool-tag">Coachless.gg</span>
-                    <span class="tool-tag">DPM.LOL</span>
-                    <span class="tool-tag">Notion</span>
+            <h2 class="section-title">Projects & Services</h2>
+            <p class="section-subtitle">What I am currently building and offering.</p>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Data Analysis</h3>
+                    <p>Building scripts and platforms using Python and SQL to analyze patch notes and player metrics for League of Legends.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services (Coming Soon) -->
-    <section id="services" class="section services">
-        <div class="container">
-            <h2 class="section-title">Services <span class="badge">In Development</span></h2>
-            <p class="section-subtitle">Currently building a centralized platform for my freelance offerings (V2 coming soon).</p>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Academic Tutoring</h3>
-                    <p>Leveraging my passion for education and very solid tech/teaching skills to help peers master computer science fundamentals.</p>
+                <div class="card">
+                    <div class="card-icon">🎮</div>
+                    <h3>E-sports Coaching</h3>
+                    <p>High-level strategic coaching for League of Legends players and teams. Decoding the meta with solid statistical backing.</p>
                 </div>
-                <div class="service-card">
-                    <h3>E-sports Consulting</h3>
-                    <p>Performance analysis and coaching for competitive teams and individuals aiming to optimize their gameplay.</p>
-                </div>
-                <div class="service-card">
+                <div class="card">
+                    <div class="card-icon">🤝</div>
                     <h3>Digital Literacy</h3>
-                    <p>Assistance and guidance for adapting to modern technological landscapes.</p>
+                    <p>Patient, approachable technical support and tutoring specifically designed to help the elderly navigate modern technology comfortably.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Linguistic Tutoring</h3>
+                    <p>Offering conversational and academic language tutoring in English, Dutch, and French.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Media & Extras Section -->
+    <section id="media" class="section media">
+        <div class="container">
+            <h2 class="section-title">Media & Extras</h2>
+            <p class="section-subtitle">My disorganized playground of content, analysis, and resources.</p>
+            
+            <div class="media-layout">
+                <!-- Embedded Video -->
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/watch?v=UTaOQGtRnN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <!-- Buttons for Youtube and Notion -->
+                <div class="extras-links">
+                    <h3>Featured Work & Links</h3>
+                    <div class="extras-buttons">
+                        <a href="https://www.youtube.com/@m1rre_analysis" target="_blank" class="btn btn-youtube">📺 Visit My YouTube Channel</a>
+                        <a href="https://sprinkle-sneezeweed-f9a.notion.site/m1rre-s-LoL-Coaching-3c19d5fbb80f80ef884bc9f9e7c2dc40?pvs=74" target="_blank" class="btn btn-notion">📝 Open My Notion Workspace</a>
+                    </div>
+                    <p style="margin-top: 20px; color: var(--text-secondary); font-size: 0.95rem;">
+                        Check out my channel for deep dives into game data, or visit my public Notion to access my study notes, data frameworks, and coaching templates.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
     <footer>
         <div class="footer-content">
-            <p>Ready to collaborate? <a href="mailto:mirappel@outlook.com" class="highlight">mirappel@outlook.com</a></p>
-            <p>&copy; 2026 Mireau Appel. All Rights Reserved.</p>
+            <h2>Contact Me</h2>
+            <p>Whether you are a recruiter, a player looking for coaching, or someone needing tech/language assistance, I'd love to chat.</p>
+            <a href="mailto:mirappel@outlook.com" class="btn btn-primary" style="margin-top: 15px; display: inline-block;">mirappel@outlook.com</a>
+            <p style="margin-top: 40px; font-size: 0.9rem; color: var(--text-muted);">&copy; 2026 Mireau Appel. All Rights Reserved.</p>
         </div>
     </footer>
 
